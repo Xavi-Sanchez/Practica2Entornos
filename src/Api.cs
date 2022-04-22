@@ -36,6 +36,12 @@ namespace DocumentPlagiarismChecker
         public Api(string settingsFilePath): this(new Settings(settingsFilePath)){
         }
 
+        aeapoiura
+        afdkmopaiurae
+
+        amoauroa
+        amoauore
+
         public Api(Settings settings){
             this.Settings = settings;
         }
