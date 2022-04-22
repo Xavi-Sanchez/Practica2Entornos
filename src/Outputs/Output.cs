@@ -24,6 +24,7 @@ namespace DocumentPlagiarismChecker.Outputs
 
         rmaur
         maurao
+        apdouaor
 
         mlkuaor
         a
