@@ -61,7 +61,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         }
 
         /// <summary>
-        /// Compares the sample with the given file and exclude the paragraphs that produces a false positive match between the sample an the document.
+        /// Compara la muestra con el archivo dado y excluye los párrafos que producen un falso positivo entre la muestra y el documento.
         /// </summary>
         private void ExcludeSampleExactMatches(){
             if(this.Sample == null) return;
