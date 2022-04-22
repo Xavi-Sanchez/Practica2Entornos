@@ -30,10 +30,10 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         public Comparator(string fileLeftPath, string fileRightPath, Settings settings): base(fileLeftPath, fileRightPath, settings){
         }  
         
-        /// <summary>
-        /// Counts how many words and how many times appears within each paragraph in a document, and checks the matching percentage.
-        /// </summary>
-        /// <returns>The matching's results.</returns>
+		/// <summary>
+         /// Cuenta cuántas palabras y cuántas veces aparece dentro de cada párrafo en un documento, y verifica el porcentaje de coincidencia.
+         /// </summary>
+         /// <returns>Los resultados de la coincidencia.</returns>
         public override ComparatorMatchingScore Run(){     
             //Este comando está pensado para mejorar el rendimiento.
             ExcludeSampleExactMatches(); 
